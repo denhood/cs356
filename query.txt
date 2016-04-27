@@ -1,0 +1,25 @@
+<html>
+<body>
+<?php
+include("zelnovskidbconnect.php");
+$sql = "SELECT * FROM sales ORDER by id desc";
+$query = mysqli_query($connection,$sql);
+
+print "<table align=\"left\" cellspacing=\"2\" cellpadding=\"2\" border=\"5\">\n";
+while($result = mysqli_fetch_array($query))
+{
+	$id = $result["InventoryNumber"];
+	$item = $result["Item"];
+?>
+<br>
+
+    <tr>
+      <td> <?php echo 'Item '. $id.'  '. $item; ?> </td>
+    </tr>
+
+<?php
+}  //end while
+?>
+</table>
+</body>
+</html>

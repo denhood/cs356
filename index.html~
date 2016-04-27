@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML>
+<!-- 	Zelnovski Appliances homepage
+	Author: Denny Hood
+-->
+<BODY>
+<h1>Part 1</h1>
+<br>
+<a href="custtable.php">customer table</a>
+<br>
+<a href="emptable.php" >employee table</a>
+<br>
+<a href="supptable.php">supplier table</a>
+<br>
+<a href="itemtable.php">items    table</a>
+<br>
+<h1>Part 2</h1>
+<br>
+<a href="customerquery.php"    >customer query</a>
+<br>
+<a href="salespersonquery.php" >employee query</a>
+<br>
+<a href="supplierquery.php"    >supplier query</a>
+<br>
+<a href="invoicequery.php"     >invoice  query</a>
+<br>
+<h1>Part 3</h1>
+<br>
+<a href="newcustomer.php"   >add a  customer</a>
+<br>
+<a href="newsalesperson.php">add an employee</a>
+<br>
+<a href="newsupplier.php"   >add a  supplier</a>
+<br>
+<a href="newitem.php"       >add a  new item</a>
+</BODY>
+</HTML>
